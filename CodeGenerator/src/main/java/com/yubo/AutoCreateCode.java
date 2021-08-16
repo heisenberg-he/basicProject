@@ -19,7 +19,7 @@ public class AutoCreateCode {
         GlobalConfig globalConfig = new GlobalConfig();//构建全局配置对象
         final String projectPath = System.getProperty("user.dir");// 获取当前用户的目录
         globalConfig
-                .setOutputDir(projectPath + "/mybatis-plus-01-start/src/main/java")// 输出文件路径
+                .setOutputDir(projectPath + "/mybatis-plus-start/src/main/java")// 输出文件路径
                 .setAuthor("hwd")// 设置作者名字
                 .setOpen(false)// 是否打开资源管理器
                 .setFileOverride(true)// 是否覆盖原来生成的
